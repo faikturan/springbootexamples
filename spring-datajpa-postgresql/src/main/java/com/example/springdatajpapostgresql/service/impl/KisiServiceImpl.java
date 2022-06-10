@@ -27,7 +27,7 @@ public class KisiServiceImpl implements KisiService {
     @Override
     @Transactional
     public KisiDto save(KisiDto kisiDto) {
-        Assert.isNull(kisiDto.getAdi(),"Adi alani zorunludur!");
+        //Assert.isNull(kisiDto.getAdi(),"Adi alani zorunludur!");
 
         Kisi kisi = new Kisi();
         kisi.setAdi(kisiDto.getAdi());
