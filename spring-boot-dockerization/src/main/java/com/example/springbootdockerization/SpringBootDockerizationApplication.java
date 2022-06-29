@@ -1,14 +1,13 @@
-package com.example.springbootrabbitmq;
+package com.example.springbootdockerization;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootRabbitmqApplication {
+public class SpringBootDockerizationApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootRabbitmqApplication.class, args);
-
+        SpringApplication.run(SpringBootDockerizationApplication.class, args);
     }
 
 }
